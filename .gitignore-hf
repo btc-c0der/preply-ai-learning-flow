@@ -1,0 +1,31 @@
+# Environment and local files
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Audio files (might be large)
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+
+# Project specific
+# Keep test audio fixtures
+!tests/fixtures/test_audio.wav
